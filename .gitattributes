@@ -1,0 +1,7 @@
+# Mark generated/vendored files to exclude from language stats
+microsme_flutter/web/sqflite_sw.js linguist-vendored
+microsme_flutter/web/sqlite3.wasm linguist-vendored
+
+# Ensure Dart is detected as main language
+*.dart linguist-detectable=true
+*.js linguist-vendored=true linguist-generated=true
